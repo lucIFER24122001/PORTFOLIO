@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <script src="https://kit.fontawesome.com/c8316befec.js" crossorigin="anonymous"></script>
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Finlandica:wght@500&family=Poppins:ital,wght@0,100;0,300;0,500;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="site-main-wrapper">
+<button class="hamberger">
+    <i class="fa-solid fa-bars"></i>
+</button>
+
+
+<div class="mobile-nav">
+    <button class="times"><i class="fa-solid fa-xmark"></i></button>
+    <ul>
+        <li class="home"><a href="#home">Home</a></li>
+        <li class="about"> <a href="#about">About</a></li>
+        <li class="skills"><a href="#skills">Skills</a></li>
+        <li class="works"> <a href="#works">Works</a></li>
+        <li class="contact"> <a href="#contact">Contact</a></li>
+    </ul>
+</div>
+
+    <header id="home"> 
+        <div class="container">
+        <nav id ="main-nav" class="flex items-center justify-between"> 
+            <div class="left flex items-center"> 
+
+                <div class="branding">
+                    <h1>Portfo<span>lio</span></h1>
+                </div>
+
+                <div> 
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#works">Works</a>
+
+                </div>
+
+            </div>
+
+            <div class="right">
+                <a href="#contact">
+                <button class=" btn  btn-primary"> 
+                    Contact
+                </button>
+            </a>
+            </div>
+
+        </nav>
+
+        <div class="hero flex items-center justify-between">
+            <div class="left flex-1 flex justify-center">
+                <img src="./images/rahul.jpg" alt="">
+            </div>
+
+            <div class="right flex-1">
+                <h6>Soumya Ranjan Mohanty</h6>
+                <h1>I'm a Software<br><span>Engineer</span></h1>
+                <p>I build things for the Web and Android.<br>I am specializing in building exceptional digital experience</p>
+                <div> 
+                    <a href="https://docs.google.com/document/d/1JQFQerDzMbkMJkrrY0LVMCYHhwE0Di_i/edit">
+                    <button class="btn btn-secondary"> 
+                        
+                        DOWNLOAD CV
+                    </button>
+                </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   </header>
+   <section id="about" class="about">
+    <div class="container flex items-center about-inner-wrap">
+        <div class="flex-1"> 
+            <img class="about-me-img" src="./images/rahul.jpg" alt="">
+        </div>
+        <div class="flex-1 right"> 
+            <h1>ABOUT <span>ME</span></h1>
+            <h3>Hello I'm Soumya Ranjan Mohanty</h3>
+            <p>I enjoy creating dynamic content that live on the internnet,My interset in developemnt in new emerging technologies started back in 2021.</p>
+         <p>My main focus on these days is building responsive and highly efficient web & android  content.<br>Apart from this I am a vedio editor and also I like drawing</p>
+        </div>
+    </div>
+   </section>
+
+   <section id="skills"class="skills">
+    
+    <div class="conatiner">
+        <h1 class="section-heading"><span>MY</span>Skills</h1>
+            <p>Here are a few technologies I have been working with recently</p>
+    </div>
+
+    <div class="skills-bar">
+        <div class="bar">
+            <div class="info">
+                <span>C</span>
+            </div>
+            <div class="progress-line C"><span></span></div>
+        </div>
+
+        <div class="bar">
+            <div class="info">
+                <span>JAVA</span>
+            </div>
+            <div class="progress-line JAVA"><span></span></div>
+        </div>
+
+        <div class="bar">
+            <div class="info">
+                <span>HTML</span>
+            </div>
+            <div class="progress-line HTML"><span></span></div>
+        </div>
+
+        <div class="bar">
+            <div class="info">
+                <span>CSS</span>
+            </div>
+            <div class="progress-line CSS"><span></span></div>
+        </div>
+
+        <div class="bar">
+            <div class="info">
+                <span>SQL</span>
+            </div>
+            <div class="progress-line SQL"><span></span></div>
+        </div>
+
+
+        <div class="bar">
+            <div class="info">
+                <span>XML</span>
+            </div>
+            <div class="progress-line XML"><span></span></div>
+        </div>
+
+        <div class="bar">
+            <div class="info">
+                <span>ANDROID</span>
+            </div>
+            <div class="progress-line ANDROID"><span></span></div>
+        </div>
+    </div>
+   </section>
+
+   <section class="freelancer">
+    <h1> MY INTERNSHIP</h1>
+    <p>I am currently doing internship at Teachnook as an android developer</p>
+    
+    <button class="btn btn-primary">Certificates</button>
+   </section>
+
+<section id="works" class="works">
+    <div class="container">
+        <h1 class="section-heading"><span>MY</span> WORKS</h1>
+        <p>Here are some of my works</p>
+        <div class="slider">
+            <div class="slide">
+                <img src="./images/coffee.jpg">
+                <p>CAFE-MAIL</p>
+                <p>It's an android app made with android studio used to oder coffee through Email</p>
+                <a href="https://github.com/lucIFER24122001/cafe" target="_blank">
+                <button class="btn btn-primary">github</button>
+            </a>
+            </div>
+
+            <div class="slide">
+                <img src="./images/gym.jpg">
+                <p>SMASH THE FAT</p>
+                <p>It is a static website as an login page for a gym website with a motion background</p>
+                <a href="https://github.com/lucIFER24122001/website" target="_blank">
+                <button class="btn btn-primary">github</button>
+            </a>
+            </div>
+
+            <div class="slide">
+                <img src="./images/language.jpg">
+                <p>O-TALK</p>
+                <p>Its a language translator app help the people to translate words from odia to english and vice versa</p>
+                <a href="https://github.com/lucIFER24122001/ud839_Miwok" target="_blank">
+                <button class="btn btn-primary">github</button>
+            </a>
+            </div>
+
+            <div class="slide">
+                <img src="./images/numbers.jpg">
+                <p>SCORER</p>
+                <p>It is a simple app for count the score of a match its shows the input function of android</p>
+                <a href="https://github.com/lucIFER24122001/score_count"target="_blank">
+                <button class="btn btn-primary">github</button>
+            </a>
+            </div>
+
+            <div class="slide">
+                <img src="./images/dbms.jpg">
+                <p>BLOOD BANK MANAGEMENT SYSTEM</p>
+                <p>its a database management project made with the help of SQL and ORACEL</p>
+               
+            </div>
+
+        </div>
+
+        <div class="slider-dots">
+
+        </div>
+    </div>
+</section>
+
+<section id="contact"class="contact">
+    <div class="container">
+        <h1 class="section-heading">Contact <span>Us</span></h1>
+        <p></p>
+        <div class="card-wrapper">
+            <div class="card">
+                <button class="btn btn-primary">number</button>
+                <h1>Call Us On</h1>
+                <h6>8144709557</h6>
+            </div>
+
+            <div class="card">
+                <button class="btn btn-primary">e-mail</button>
+                <h1>E-MAIL Us On</h1>
+                <h6>soumyamohanty20202020@gmail.com</h6>
+            </div>
+
+            <div class="card">
+                <a href="https://www.google.com/maps/place/Bhubaneswar,+Odisha/@20.3010312,85.750241,12z/data=!3m1!4b1!4m5!3m4!1s0x3a1909d2d5170aa5:0xfc580e2b68b33fa8!8m2!3d20.2960587!4d85.8245398" target="_blank">
+                <button class="btn 
+                btn-primary">address</button>
+            </a>
+                <h1>Work Here</h1>
+                <h6>Odisha,Bhubhaneswar,Jatni,<br>752050</h6>
+            </div>
+        
+
+        </div>
+<form action="">
+        <div class="input-wrap">
+            <input type="text" placeholder="YOUR NAME *">
+            <input type="text" placeholder="YOUR E-MAIL *">
+        </div>
+<div class="input-wrap-2">
+    <input type="text" placeholder="SUBJECT....">
+    <textarea name="" id="" cols="30" rows="10" placeholder="YOUR MESSAGE..."></textarea>
+</div>
+<div class="btn-wrapper">
+<button class="btn btn-primary">SEND</button>
+</div>
+
+</form>
+</div>
+</section>
+
+<footer>
+    <h1><span>Portfo</span>lio</h1>
+    <div class="footer-socials">
+        
+        <a href="https://www.linkedin.com/in/soumya-mohanty-22b6491b9/"  target=”_blank”><i class="fa-brands fa-linkedin-in"></i></a>
+        
+        <a href="https://github.com/lucIFER24122001"  target=”_blank”><i class="fa-brands fa-github"></i></a>
+      
+
+        <a href="https://www.instagram.com/hell.__.tube/"  target=”_blank”>
+      <i class="fa-brands fa-instagram"></i></a>
+        
+    </div>
+</footer>
+  </div>
+
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="./js/app.js"></script>
+
+</body>
+</html>
